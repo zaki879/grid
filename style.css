@@ -2114,13 +2114,13 @@ textarea.w-select {
     --background-color--background-white: var(--base-color-brand--white);
     --text-color--text-black: var(--base-color-brand--black);
     --base-color-brand--white: white;
-    --grey-text_white-bg: #747474;
-    --base-color-brand--black: #0a0a0a;
+    --grey-text_white-bg: #ffffff27;
+    --base-color-brand--black: #140d23;
     --text-color--text-white: var(--base-color-brand--white);
-    --dark-grey: #494949;
-    --base-color-brand--mid-grey: #b2b2b2;
+    --dark-grey: #ffffff;
+    --base-color-brand--mid-grey: #ffffff2d;
     --border-color--border-primary\<deleted\|relume-variable-border-color-1\>: var(--base-color-neutral--black\<deleted\|relume-variable-color-neutral-1\>);
-    --base-color-brand--light-grey: #f1f1f1;
+    --base-color-brand--light-grey: #f1f1f123;
     --background-color--background-error\<deleted\|relume-variable-background-color-8\>: var(--base-color-system--error-red-light\<deleted\|relume-variable-system-color-6\>);
     --text-color--text-error\<deleted\|relume-variable-text-color-5\>: var(--base-color-system--error-red\<deleted\|relume-variable-system-color-5\>);
     --background-color--background-light-grey: var(--base-color-brand--light-grey);
@@ -3182,7 +3182,8 @@ figcaption {
     font-family: Ppneuemontreal Book, sans-serif;
     font-size: 2rem;
     font-weight: 400;
-    line-height: 1
+    line-height: 1;
+    color:white;
 }
 
 .heading-style-h3.text-weight-medium.is-1-5,
@@ -3229,7 +3230,7 @@ figcaption {
 
 .form_input.is-password {
     border-bottom-color: var(--base-color-brand--white);
-    background-color: #0a0a0a00
+    background-color: #140d2300
 }
 
 .form_input.is-password::placeholder {
@@ -3312,7 +3313,7 @@ figcaption {
 }
 
 .background-color-black {
-    background-color: #0a0a0a
+    background-color: #140d23
 }
 
 .styleguide_subheading {
@@ -3995,7 +3996,7 @@ figcaption {
 
 .header7_background-video-wrapper {
     z-index: -1;
-    background-image: linear-gradient(#00000080, #00000080);
+    background-image: linear-gradient(#140d23, #140d23);
     border-radius: 1.25rem;
     position: absolute;
     inset: 0%;
@@ -4013,31 +4014,31 @@ figcaption {
 
 .video-overlay-layer {
     z-index: 1;
-    background-color: #000000c4;
+    background-color: #140d23;
     position: absolute;
     inset: 0%
 }
 
 .video-overlay-layer.is-55 {
-    background-color: #0000008c
+    background-color: #140d23
 }
 
 .video-overlay-layer.is-gradient.is-footer {
-    background-image: linear-gradient(0deg, var(--base-color-brand--black)13%, #0a0a0a29)
+    background-image: linear-gradient(0deg, var(--base-color-brand--black)13%, #140d2329)
 }
 
 .video-overlay-layer.is-gradient.is-menu {
-    background-image: linear-gradient(173deg, var(--base-color-brand--black)13%, #0a0a0a00)
+    background-image: linear-gradient(173deg, var(--base-color-brand--black)13%, #140d2300)
 }
 
 .video-overlay-layer.is-gradient {
     background-color: #0000;
-    background-image: linear-gradient(#0a0a0a00, #0a0a0a 87%);
-    background-image: linear-gradient(0deg, var(--base-color-brand--black)13%, #0a0a0a00)
+    background-image: linear-gradient(#140d2300, #140d23 87%);
+    background-image: linear-gradient(0deg, var(--base-color-brand--black)13%, #140d2300)
 }
 
 .video-overlay-layer.is-gradient.is-contact {
-    background-image: linear-gradient(172deg, var(--base-color-brand--black)14%, #0a0a0a00)
+    background-image: linear-gradient(172deg, var(--base-color-brand--black)14%, #140d2300)
 }
 
 .video-overlay-layer.is-loader {
@@ -5606,7 +5607,7 @@ figcaption {
 }
 
 .menu-arrow.text-color-black {
-    color: #0a0a0a
+    color: #140d23
 }
 
 .div-block-17 {
@@ -5652,7 +5653,20 @@ figcaption {
     display: flex;
     position: relative
 }
-
+.navbar-link:hover {
+    border-bottom: 1px solid var(--dark-grey);
+    color: #140d23;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
+    position: relative
+}
 .context-top {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -5675,7 +5689,7 @@ figcaption {
 }
 
 .menu-service1-content {
-    background-color: #0a0a0a;
+    background-color: #140d23;
     border-radius: 1.25rem;
     flex-flow: column;
     justify-content: flex-start;
@@ -5746,8 +5760,8 @@ figcaption {
     color: #fff;
     text-align: center;
     letter-spacing: .5px;
-    background-color: #0a0a0a;
-    border: 1px solid #0a0a0a;
+    background-color: #140d23;
+    border: 1px solid #140d23;
     border-radius: 100rem;
     padding: .75rem 1.5rem;
     font-family: Ppneuemontreal Book, sans-serif;
@@ -5765,7 +5779,7 @@ figcaption {
 .navbar-link-wrapper {
     grid-column-gap: 2.5rem;
     grid-row-gap: 0rem;
-    background-color: var(--base-color-brand--black);
+    background-color: #140d23;
     color: var(--base-color-brand--white);
     border: 1px #000;
     border-radius: 1.25rem;
@@ -5804,7 +5818,7 @@ figcaption {
 }
 
 .navbar-contact-content {
-    background-color: #0a0a0a;
+    background-color: #140d23;
     border-radius: 1.25rem;
     width: 100%;
     height: 100%;
@@ -5938,8 +5952,8 @@ figcaption {
     color: #fff;
     text-align: center;
     letter-spacing: .5px;
-    background-color: #0a0a0a;
-    border: 1px solid #0a0a0a;
+    background-color: #140d23;
+    border: 1px solid #140d23;
     border-radius: 100rem;
     padding: .75rem 1.5rem;
     font-family: Ppneuemontreal, sans-serif;
@@ -6708,8 +6722,8 @@ figcaption {
     color: #fff;
     text-align: center;
     letter-spacing: .5px;
-    background-color: #0a0a0a;
-    border: 1px solid #0a0a0a;
+    background-color: #140d23;
+    border: 1px solid #140d23;
     border-radius: 100rem;
     padding: .75rem 1.5rem;
     font-family: Ppneuemontreal, sans-serif;
@@ -6770,7 +6784,7 @@ figcaption {
 }
 
 .layout378_card-medium-2.is-2.is-white {
-    color: #0a0a0a;
+    color: #140d23;
     background-color: #fff;
     border-style: none
 }
@@ -6798,7 +6812,7 @@ figcaption {
 }
 
 .layout378_card-large-2.is-1.is-white {
-    color: #0a0a0a;
+    color: #140d23;
     background-color: #fff;
     border-style: none
 }
@@ -6831,7 +6845,7 @@ figcaption {
 }
 
 .layout378_card-small-2.is-4.is-white {
-    color: #0a0a0a;
+    color: #140d23;
     background-color: #fff;
     border-style: none
 }
@@ -6847,7 +6861,7 @@ figcaption {
 }
 
 .layout378_card-small-2.is-3.is-white {
-    color: #0a0a0a;
+    color: #140d23;
     background-color: #fff;
     border-style: none
 }
@@ -6863,7 +6877,7 @@ figcaption {
 }
 
 .layout378_card-small-2.is-5.is-white {
-    color: #0a0a0a;
+    color: #140d23;
     background-color: #fff;
     border-style: none
 }
@@ -6900,8 +6914,8 @@ figcaption {
     color: #fff;
     text-align: center;
     letter-spacing: .5px;
-    background-color: #0a0a0a;
-    border: 1px solid #0a0a0a;
+    background-color: #140d23;
+    border: 1px solid #140d23;
     border-radius: 100rem;
     padding: .75rem 1.5rem;
     font-family: Ppneuemontreal, sans-serif;
@@ -6924,8 +6938,8 @@ figcaption {
     color: #fff;
     text-align: center;
     letter-spacing: .5px;
-    background-color: #0a0a0a;
-    border: 1px solid #0a0a0a;
+    background-color: #140d23;
+    border: 1px solid #140d23;
     border-radius: 100rem;
     padding: .75rem 1.5rem;
     font-family: Ppneuemontreal, sans-serif;
@@ -6973,7 +6987,7 @@ figcaption {
 .faq6_component-2 {
     grid-column-gap: 5rem;
     grid-row-gap: 4rem;
-    color: #0a0a0a;
+    color: #140d23;
     grid-template-rows: auto;
     grid-template-columns: .75fr 1fr;
     grid-auto-columns: 1fr;
@@ -7315,7 +7329,7 @@ figcaption {
 
 .more-info_background-overlay {
     z-index: -1;
-    background-color: #0a0a0a99;
+    background-color: #140d2399;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -7952,8 +7966,8 @@ figcaption {
     color: #fff;
     text-align: center;
     letter-spacing: .5px;
-    background-color: #0a0a0a;
-    border: 1px solid #0a0a0a;
+    background-color: #140d23;
+    border: 1px solid #140d23;
     border-radius: 6px;
     padding: .75rem 1.5rem;
     font-family: Ppneuemontreal, sans-serif;
@@ -8105,8 +8119,8 @@ figcaption {
     color: #fff;
     text-align: center;
     letter-spacing: .5px;
-    background-color: #0a0a0a;
-    border: 1px solid #0a0a0a;
+    background-color: #140d23;
+    border: 1px solid #140d23;
     border-radius: 6px;
     padding: .75rem 1.5rem;
     font-family: Ppneuemontreal, sans-serif;
@@ -8456,8 +8470,8 @@ figcaption {
     color: #fff;
     text-align: center;
     letter-spacing: .5px;
-    background-color: #0a0a0a;
-    border: 1px solid #0a0a0a;
+    background-color: #140d23;
+    border: 1px solid #140d23;
     border-radius: 6px;
     padding: .75rem 1.5rem;
     font-family: Ppneuemontreal, sans-serif;
@@ -8466,7 +8480,7 @@ figcaption {
 }
 
 .button-26.is-link {
-    color: #0a0a0a;
+    color: #140d23;
     background-color: #0000;
     border-style: none;
     border-radius: 0;
@@ -13952,4 +13966,8 @@ figcaption {
     font-weight: 500;
     font-style: normal;
     font-display: swap;
+}
+.navbar-link:hover{
+
+    color: #000;
 }
