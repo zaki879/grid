@@ -5915,7 +5915,7 @@ figcaption {
 }
 
 .navbar18_menu {
-    background-color: #fff;
+    background-color: inherit;
     flex-direction: column;
     flex: 1;
     justify-content: flex-start;
